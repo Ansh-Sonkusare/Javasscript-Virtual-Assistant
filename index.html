@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="jquery-3.1.1.js"></script>
+
+<style>
+body
+{
+    background-color: #151515;
+    color: white;
+    height: 100%;
+        margin: 0;
+        padding: 0;
+       
+}
+#map {
+        height: 100%;
+      }
+button{
+
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 15%;
+    font-size: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: .5s;
+}
+.image{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-70%);
+    width: 150px;
+    height: 150px;
+    visibility: hidden;
+
+}
+.mystyle{
+    visibility: visible;
+}
+button:hover{
+
+    background-color: white;
+    border: none;
+    color: black;
+}
+.title{
+    color: white;
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    font-size: 47px;
+}
+.copy{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+
+    text-decoration:none;
+    color:rgb(45, 93, 224);
+
+
+}
+
+
+</style>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="date"></h1>
+    <p class="title" >You Can Speak And I will Search </p>
+    <button class="talk" onclick="a()">Talk</button>
+    <h3 class="content"></h3>
+    <script src="app2.js">
+       
+    </script>
+    <script src="jquery-3.1.1.js"></script>
+   
+    </head>
+    <body>
+    <p class="copy">Developed by <a href = "https://www.youtube.com/channel/UC0OaXZ-F4WnR7QKvTZZkNwg" target="_blank"> ansh sonkusare </a></p>
+    <div id="content"></div>
+    <img id="myDIV" src="2Dn3.gif" alt="" class="image">
+    </body>
+</body>
+</html>
